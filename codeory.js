@@ -2845,8 +2845,8 @@ const oldBase = "https://downloads.computinginthecore.org/bramble_0.1.31/";
 const newBase = "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/";
 
 if (window.location.href.startsWith(oldBase)) {
-  const path = window.location.href.slice(oldBase.length);
-  const filename = path.split("/").pop(); // get just the filename
+  const path = window.location.href.slice(oldBase.length).split("?")[0];  
+  const filename = path.split("/").pop();
 
   if (filename.toLowerCase().startsWith("cl")) {
     window.location.replace(newBase + path);
