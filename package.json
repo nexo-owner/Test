@@ -1,0 +1,22 @@
+{
+  "name": "ugs-singlefile",
+  "version": "1.0.0",
+  "description": "please speed",
+  "main": "games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubbls/ugs-singlefile.git"
+  },
+  "keywords": [
+    "n"
+  ],
+  "author": "bubby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bubbls/ugs-singlefile/issues"
+  },
+  "homepage": "https://github.com/bubbls/ugs-singlefile#readme"
+}
